@@ -7,7 +7,7 @@ while True :
     elif int(number) < 0:
         print("Please enter positive number")
     elif not number.isdigit():
-        print("Do not use any entries other than numeric values")
+        print("Dont use any entries other than numeric values")
     else:
         for i in range(len(number)):
          sum1 += int(number[i]) ** len(number)
